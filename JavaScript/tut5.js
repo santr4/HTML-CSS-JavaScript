@@ -38,3 +38,13 @@ item['color'] = "red";
 
 console.log(item);
 
+// ** Q5 - word meaning dictionary.
+
+const dict = {
+    football : 'football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms',
+    boy : 'a living thing having XY chromosome',
+    school : 'a place to gain education'
+}
+
+console.log(dict['school']);
+console.log(dict);
