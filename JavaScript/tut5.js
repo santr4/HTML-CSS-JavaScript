@@ -48,3 +48,5 @@ const dict = {
 
 console.log(dict['school']);
 console.log(dict);
+
+console.log(dict.boy);
