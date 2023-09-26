@@ -22,3 +22,19 @@ console.log(a,b,c,d,e,f,g);
 let h = 76;
 
 console.log(h);
+
+// ** Objects - Non - primitive datatype
+
+const item = {
+    "himanshu" : "AI Engineer",
+    "Gaurav": "Data Engineer",
+    "Anupam": "Web Developer",
+    "Yash": "IoS Developer",
+    "prashant": "ml engineer",
+    "ansh": "buisnessman",
+    "saumy": "mathematician",
+    "santra": 0
+}
+
+console.log(item["santra"])
+console.log(item["ansh"])
