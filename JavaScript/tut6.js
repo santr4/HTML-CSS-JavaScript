@@ -31,3 +31,26 @@ let d = 0;
 d += 4;
 
 console.log(d);
+
+// ** comparision operators
+
+let comp1 = 5;
+let comp2 = "5";
+
+console.log(comp1 == comp2);
+console.log(comp1 === comp2);  // === this operator is checks if both value and datatype are equal
+
+// ** logical operators
+
+let e = 7;
+let f = 8;
+
+if(e == 7 && (f%2) == 0){
+    console.log('both conditions are satisfied');
+}
+
+// ** comments
+
+/* hello world,
+I am back */
+
