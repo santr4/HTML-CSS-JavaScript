@@ -24,3 +24,17 @@ const c = {
 // c = "aaranyak";  --> this will throw an error.
 
 console.log(c) 
+
+// ** Q4 - The object which is in relationship with the const can change which the const can tolerate but the const will not tolerate if any other object is forced on it.
+
+const item = {
+    name : 'apple',
+    price : 560,
+    weight : "1KG"
+}
+
+item['price'] = 600;
+item['color'] = "red";
+
+console.log(item);
+
