@@ -25,3 +25,9 @@ console.log(c);
 console.log(c++);
 console.log(c);
 
+// ** assignment operators
+
+let d = 0;
+d += 4;
+
+console.log(d);
