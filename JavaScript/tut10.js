@@ -32,3 +32,8 @@ for(let c in obj){
 
 // for of loop
 
+let str = "aaranyak santra"
+
+for (let d of str) {
+    console.log(d);
+}
