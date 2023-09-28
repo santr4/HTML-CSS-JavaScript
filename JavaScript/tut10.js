@@ -37,3 +37,11 @@ let str = "aaranyak santra"
 for (let d of str) {
     console.log(d);
 }
+
+let x = 10;
+let s = 0;
+for (var i = 0; i < x; i++) {  // if we use let with i then i is only for the block therefore we cannot run the console.log(i); we have to use var.
+    s += i;
+}
+
+console.log(i);
