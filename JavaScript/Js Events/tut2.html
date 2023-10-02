@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+
+<body>
+    <h1>JS EVENTS</h1>
+    // ** to use both onclick property and functions
+    <button onclick="date()" id="demo">what is the time now?</button>
+    <script>
+        function date() {
+            let x = prompt("do you support LGBTQ? : answer y or n");
+            if (x == "y") {
+                alert("you are stupid");
+            }
+            else {
+                document.getElementById('demo').innerHTML = Date();
+            }
+        }
+    </script>
+</body>
+
+</html>
