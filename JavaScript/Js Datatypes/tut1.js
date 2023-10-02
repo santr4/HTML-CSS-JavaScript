@@ -20,7 +20,7 @@ let c = true;
 let obj = {
     boy: 'aaranyak',
     girl: 'shreya'
-}
+};
 
 console.log(obj['girl']);
 
