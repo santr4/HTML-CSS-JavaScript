@@ -44,3 +44,16 @@ var e = "aaranyak";
 var f = "santra";
 var g = e.concat(" " + f);
 console.log(g);
+
+let h = "   hello   ";
+console.log(h.trim());
+
+let i = "amrita vishwa vidyapeetham";
+let char = i.charAt(1);
+let char1 = i[1];
+if(char ==  char1){
+    console.log('true');
+}
+else{
+    console.log('false');
+}
