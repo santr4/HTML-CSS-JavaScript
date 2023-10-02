@@ -40,3 +40,7 @@ console.log(d);
 
 // concat function
 
+var e = "aaranyak";
+var f = "santra";
+var g = e.concat(" " + f);
+console.log(g);
