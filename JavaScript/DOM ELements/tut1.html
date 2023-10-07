@@ -1,0 +1,24 @@
+<!--DOM tagname-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM tagname</title>
+</head>
+<body>
+    <h2>JavaScript HTML DOM</h2>
+
+    <p>Finding HTML elements by tagname</p>
+    <p>This example demonstrates the <b>document.getElementByTag</b> method.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        const element = document.getElementsByTagName('p');
+        document.getElementById("demo").innerHTML = 'the text in the first paragraph is : ' + 
+        element[0].innerHTML;
+    </script>
+</body>
+</html>
